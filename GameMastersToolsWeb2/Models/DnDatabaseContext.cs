@@ -10,6 +10,7 @@ namespace GameMastersToolsWeb2.Models
         public DnDatabaseContext()
             : base("name=DnDatabaseContext")
         {
+            Configuration.ProxyCreationEnabled = false;
         }
 
         public virtual DbSet<Campaign> Campaigns { get; set; }
