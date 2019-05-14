@@ -165,6 +165,7 @@
     <Compile Include="Controllers\CampaignsController.cs" />
     <Compile Include="Controllers\ChaptersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\NPCsController.cs" />
     <Compile Include="Controllers\PCsController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
